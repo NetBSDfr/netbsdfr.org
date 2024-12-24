@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>L&#39;actualité NetBSD en français</title>
+    <link>http://localhost:1313/</link>
+    <description>Recent content on L&#39;actualité NetBSD en français</description>
+    <generator>Hugo</generator>
+    <language>fr</language>
+    <copyright>© 2024 NetBSDfr team</copyright>
+    <lastBuildDate>Tue, 24 Dec 2024 09:44:12 +0100</lastBuildDate>
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Un Nouveau Départ</title>
+      <link>http://localhost:1313/posts/un-nouveau-depart/</link>
+      <pubDate>Tue, 24 Dec 2024 09:44:12 +0100</pubDate>
+      <guid>http://localhost:1313/posts/un-nouveau-depart/</guid>
+      <description>&lt;p&gt;Bonjour et bienvenue sur NetBSDfr.org. Enfin, re-bienvenue, pour les&#xA;quelques-uns qui auraient gardé dans un coin de leurs marque-pages ou de leur&#xA;mémoire l&amp;rsquo;existence de ce site.&lt;/p&gt;&#xA;&lt;p&gt;Alors que s&amp;rsquo;est-il passé ? Du manque de temps, d&amp;rsquo;organisation, de volontaire,&#xA;d&amp;rsquo;idées ? Ou alors tout cela à la fois. Et l&amp;rsquo;idée de la relance de ce site a&#xA;elle-même pris plus de temps que nécessaire, mais il faut bien se lancer à un&#xA;moment. Comme on dit en anglais, &amp;ldquo;done is better than perfect&amp;rdquo;.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,6 @@
+baseURL = 'https://netbsdfr.org/'
+languageCode = 'fr'
+title = "L'actualité NetBSD en français"
+theme = 'ghostwriter'
+copyright = "© 2024 NetBSDfr team"
+enableRobotsTXT = true
