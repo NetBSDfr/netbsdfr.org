@@ -1,6 +1,6 @@
 +++
 date = '2025-01-09T06:26:48+01:00'
-draft = true
+draft = false
 title = 'Le Journal De smolBSD'
 +++
 
