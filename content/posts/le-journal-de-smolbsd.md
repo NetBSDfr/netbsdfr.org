@@ -29,6 +29,8 @@ _smolBSD_ a ensuite évolué en un projet de création de micro-système d'explo
 
 À noter pour finir que _smolBSD_ et en particulier son noyau fonctionnent sur [QEMU][15], et plus spécialement son type de machine [microvm][16], ainsi que [Firecracker][7]. Quant aux plateformes, au delà des suscitées _i386_ et _amd64_, les outils de création d'image de _smolBSD_ permettent de créer des _microVMs_ pour l'architecture _ARM_ `aarch64`, permettant ainsi l'utilisation de telles machines sur _Raspberry Pi_, _OrangePi_ ou encore... _MacBook M[123]_ !
 
+-- iMil
+
 [1]: https://xenbits.xen.org/docs/unstable/misc/pvh.html
 [2]: https://gnats.netbsd.org/57813
 [3]: https://github.com/freebsd/freebsd-src/blob/main/sys/dev/virtio/mmio/virtio_mmio_cmdline.c
