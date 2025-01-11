@@ -4,7 +4,7 @@ draft = false
 title = 'Le Journal De smolBSD'
 +++
 
-Il y a un peu plus d'un an votre serviteur eut cette idée -qui à l'époque me semblait- folle d'implémenter la fonctionnalité [boot PVH][1]_ dans le noyau de notre système d'exploitation favori. En quelques mots, il s'agit de pouvoir démarrer un noyau avec un hyperviseur ([QEMU][15] ou [Firecracker][7] par exemple) sans passer par la séquence _BIOS - bootloader_, mais en branchant directement sur un point d'entrée du noyau avec les informations nécessaires au démarrage passées par l'hyperviseur.  
+Il y a un peu plus d'un an votre serviteur eut cette idée -qui à l'époque me semblait- folle d'implémenter la fonctionnalité [boot PVH][1] dans le noyau de notre système d'exploitation favori. En quelques mots, il s'agit de pouvoir démarrer un noyau avec un hyperviseur ([QEMU][15] ou [Firecracker][7] par exemple) sans passer par la séquence _BIOS - bootloader_, mais en branchant directement sur un point d'entrée du noyau avec les informations nécessaires au démarrage passées par l'hyperviseur.  
 Cette fonctionnalité a maintenant été intégrée au code source officiel du noyau [en décembre 2024][2].  
 
 Suite à ces travaux, j'ai voulu comprendre pourquoi et comment Colin Perceval réussissait à faire démarrer un noyau _FreeBSD_ en 25ms là où _NetBSD_ ne parvenait pas à descendre sous les 200ms. Cela m'a emmené à porter le pilote [MMIO cmdline][3] du sieur Colin, grâce auquel on s'affranchit du bus _PCI_ pour l'attachement des pilotes _VirtIO_. L'ajout de cette fonctionnalité avait en outre une condition, implémenter un bus "trivial", [pv(4)][4] spécialement dédié à l'attachement des pilotes ne nécessitant pas de bus _PCI_ ou _ISA_ sur machine _x86_.
