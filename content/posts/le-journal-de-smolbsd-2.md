@@ -1,6 +1,6 @@
 +++
 date = '2025-01-15T14:56:50+01:00'
-draft = true
+draft = false
 title = 'Le Journal De smolBSD, Episode 2'
 +++
 
