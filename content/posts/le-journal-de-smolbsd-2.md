@@ -5,7 +5,7 @@ title = 'Le Journal De smolBSD, Episode 2'
 +++
 
 Ça y est ! je viens d'intégrer le code de gestion des périphériques virtuels [MMIO][1] dans [NetBSD current][2].  
-Ce fut long, plus d'un an d'attente entre [ce mail][3] et [ce commit][2], mais il est désormais possible de compiler un noyau _NetBSD_ [officiel][4] avec le support _VirtIO_ [totalement virtual][5], et ainsi démarrer une machine virtuelle de type [QEMU/microvm][6] ou [Firecracker][7].
+Ce fut long, plus d'un an d'attente entre [ce mail][3] et [ce commit][2], mais il est désormais possible de compiler un noyau _NetBSD_ [officiel][4] avec le support _VirtIO_ [totalement virtuel][5], et ainsi démarrer une machine virtuelle de type [QEMU/microvm][6] ou [Firecracker][7].
 
 Mon travail n'est pas fini pour autant ! Il reste encore [une dizaine de patchs à venir][8], essentiellement destinés à accélérer le démarrage du noyau en mode virtualisé.  
 Des versions binaires de noyaux prêts à l'emploi et bénéficiant des patchs en question sont disponibles [ici][9].
