@@ -10,6 +10,8 @@ Ce fut long, plus d'un an d'attente entre [ce mail][3] et [ce commit][2], mais i
 Mon travail n'est pas fini pour autant ! Il reste encore [une dizaine de patchs à venir][8], essentiellement destinés à accélérer le démarrage du noyau en mode virtualisé.  
 Des versions binaires de noyaux prêts à l'emploi et bénéficiant des patchs en question sont disponibles [ici][9].
 
+-- iMil
+
 [1]: https://docs.oasis-open.org/virtio/virtio/v1.3/csd01/virtio-v1.3-csd01.html#x1-1800002
 [2]: https://cvsweb.netbsd.org/bsdweb.cgi/src/sys/dev/virtio/arch/x86/virtio_mmio_cmdline.c?rev=1.1
 [3]: https://mail-index.netbsd.org/tech-kern/2023/12/28/msg029394.html
