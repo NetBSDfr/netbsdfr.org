@@ -21,7 +21,7 @@ J'ai entrepris de me débarrasser de ces délais inutiles en implémentant diver
 Quelques petites améliorations plus loin, le noyau était capable de démarrer en **moins** de 20ms sur une machine _i5_ de 2015.
 
 Au delà de la simple performance, l'objectif de ce travail de fond était de proposer une version miniature de _NetBSD_: [smolBSD][6].  
->>>>>>> 892e8f2d0c7bf6fe66a2d86fbd33a86c0e2ed598
+
 L'idée de ce micro-système m'est venue à l'annonce de la sortie de [Firecracker][7], un _VMM_ (gestionnaire de machine virtuel, à ne pas confondre avec l'hyperviseur) Libre issu des laboratoires d'_Amazon Web Services_ qui équipe les infrastructures _serverless_ du _cloudiste_.  
 Après [plusieurs][8] [expériences][9] avec un noyau _i386_ qui savait déjà démarrer directement via le paramètre `-kernel` de _QEMU_, je me suis jeté dans le vide pendant un de mes [lives Twitch][10] en annonçant que j'allais essayer d'ajouter cette fonctionnalité au noyau _amd64_. À ce stade, je ne comprenais pas encore qu'il s'agissait d'implémenter le [boot PVH][1], ni qu'en réalité la raison pour laquelle le noyau _i386_ savait booter directement provenait de son support de [MULTIBOOT][11], qui n'a jamais trouvé son chemin jusqu'à l'architecture 64 bits. J'ai récemment fini par implémenter _PVH_ également sur _i386_, ce qui permet désormais de construire un noyau _smolBSD_ pour les deux plateformes.
 
